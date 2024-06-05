@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <h1>CALCULATEUR IMC </h1>
+    <form>
+        
+            
+            <label for="poids">veiller Entrer le poids en kiligramme kg</label>
+            <input type="number" id="poids">
+            <label for="taille">veiller Entrer la taille  en metre (m)</label>
+            <input type="number" id="taille">
+            <input type="button" value="Calculer" onclick="calculerImc()">
+        
+        <fieldset hidden>
+            <!-- <legend>Interprétation</legend> -->
+            <label id="interpretation"></label>
+        </fieldset>
+    </form>
+</body>
+
+</html>

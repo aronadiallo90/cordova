@@ -1,0 +1,6 @@
+platforms/
+node_modules/
+config.xml
+package-lock.json
+package.json
+
